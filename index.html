@@ -1,1 +1,82 @@
-Hello World
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html ng-app="bio">
+<head>
+	<title>Strata by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!-- Scripts -->
+	<!-- Includes-->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.poptrox.min.js"></script>
+	<script type="text/javascript" src="assets/js/skel.min.js"></script>
+	<script type="text/javascript" src="assets/js/angular.min.js"></script>
+	<!-- Web Functionality -->
+	<script type="text/javascript" src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</head>
+<body id="top" ng-controller="BioController as bio">
+	<!-- Header -->
+	<header id="header">
+		<img class="image avatar" ng-src="{{bio.details.avatar}}" alt="" />
+		<h1>
+			{{bio.details.name}}
+		</h1>
+		<h1>
+			{{bio.details.position}}
+		</h1>
+		<hi>
+			<a ng-href="{{bio.details.resume}}">Resume</a>
+		</hi>
+	</header>
+	<!-- Main -->
+	<div id="main">
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2>About Casey</h2>
+			</header>
+			<p>
+				Motivated Software Engineer experienced in designing, developing, testing and documenting web services applications.
+				Excels working within a team environment in full life cycle of products as well as individually managing and supporting multiple projects.
+				Possesses the ability to switch between multiple environments and projects quickly and efficiently to manage issues, develop, update and maintain code.
+			</p>
+			<div>Specialties:</div>
+			<ul style="list-style: none;">
+				<li>
+					Languages: Java, PHP, Bash Shell, Web (Javascript & jQuery, CSS, HTML), C++, Objective-C
+				</li>
+				<li>
+					Databases: MySQL
+				</li>
+				<li>
+					Tools: Apache HTTP Server, Apache Tomcat, JDBC, Amazon AWS, Git, SVN
+				</li>
+				<li>
+					Operating Systems: Red Hat Linux, Ubuntu, Mac OS X, Debian GNU/Linux
+				</li>
+			</ul>
+		</section>
+	</div>
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a ng-href="{{bio.details.gitHub}}" class="icon fa-github"><span class="label">Github</span></a></li>
+			<li><a ng-href="mailto:{{bio.details.email}}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; {{bio.details.name}} 2016</li>
+			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
