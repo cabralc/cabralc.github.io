@@ -19,7 +19,7 @@
         zip     : "92101",
         phone   : "619-400-7506",
         email   : "casey.cabral@gmail.com",
-        position: "Principal Engineer I",
+        position: "Software Engineer",
         gitHub  : "https://github.com/cabralc",
         resume  : "assets/resume/resume.html",
         avatar  : "images/avatar.jpg"
