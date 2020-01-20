@@ -21,7 +21,7 @@
         email   : "casey.cabral@gmail.com",
         position: "Principal Engineer I",
         gitHub  : "https://github.com/cabralc",
-        resume  : "https://represent.io/caseycab",
+        resume  : "assets/resume/resume.html",
         avatar  : "images/avatar.jpg"
     };
 })();
