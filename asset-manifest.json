@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/cabralc.github.io/static/css/main.a889d10a.chunk.css",
-    "main.js": "/cabralc.github.io/static/js/main.9c1183eb.chunk.js",
-    "main.js.map": "/cabralc.github.io/static/js/main.9c1183eb.chunk.js.map",
-    "runtime-main.js": "/cabralc.github.io/static/js/runtime-main.22af6f45.js",
-    "runtime-main.js.map": "/cabralc.github.io/static/js/runtime-main.22af6f45.js.map",
-    "static/js/2.f632a2e6.chunk.js": "/cabralc.github.io/static/js/2.f632a2e6.chunk.js",
-    "static/js/2.f632a2e6.chunk.js.map": "/cabralc.github.io/static/js/2.f632a2e6.chunk.js.map",
-    "index.html": "/cabralc.github.io/index.html",
-    "precache-manifest.1dc2dd49ed7f40de9277f8e81b636da9.js": "/cabralc.github.io/precache-manifest.1dc2dd49ed7f40de9277f8e81b636da9.js",
-    "service-worker.js": "/cabralc.github.io/service-worker.js",
-    "static/css/main.a889d10a.chunk.css.map": "/cabralc.github.io/static/css/main.a889d10a.chunk.css.map",
-    "static/js/2.f632a2e6.chunk.js.LICENSE.txt": "/cabralc.github.io/static/js/2.f632a2e6.chunk.js.LICENSE.txt",
-    "static/media/anfield.JPG": "/cabralc.github.io/static/media/anfield.ac161f99.JPG",
-    "static/media/resume.pdf": "/cabralc.github.io/static/media/resume.7666b837.pdf"
+    "main.css": "/cabralc.github.io/cabralc.github.io/static/css/main.a889d10a.chunk.css",
+    "main.js": "/cabralc.github.io/cabralc.github.io/static/js/main.8f0d630a.chunk.js",
+    "main.js.map": "/cabralc.github.io/cabralc.github.io/static/js/main.8f0d630a.chunk.js.map",
+    "runtime-main.js": "/cabralc.github.io/cabralc.github.io/static/js/runtime-main.164bbadd.js",
+    "runtime-main.js.map": "/cabralc.github.io/cabralc.github.io/static/js/runtime-main.164bbadd.js.map",
+    "static/js/2.f632a2e6.chunk.js": "/cabralc.github.io/cabralc.github.io/static/js/2.f632a2e6.chunk.js",
+    "static/js/2.f632a2e6.chunk.js.map": "/cabralc.github.io/cabralc.github.io/static/js/2.f632a2e6.chunk.js.map",
+    "index.html": "/cabralc.github.io/cabralc.github.io/index.html",
+    "precache-manifest.2ac9ba3b75f9bd750bc66caf46534c9d.js": "/cabralc.github.io/cabralc.github.io/precache-manifest.2ac9ba3b75f9bd750bc66caf46534c9d.js",
+    "service-worker.js": "/cabralc.github.io/cabralc.github.io/service-worker.js",
+    "static/css/main.a889d10a.chunk.css.map": "/cabralc.github.io/cabralc.github.io/static/css/main.a889d10a.chunk.css.map",
+    "static/js/2.f632a2e6.chunk.js.LICENSE.txt": "/cabralc.github.io/cabralc.github.io/static/js/2.f632a2e6.chunk.js.LICENSE.txt",
+    "static/media/anfield.JPG": "/cabralc.github.io/cabralc.github.io/static/media/anfield.ac161f99.JPG",
+    "static/media/resume.pdf": "/cabralc.github.io/cabralc.github.io/static/media/resume.7666b837.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.22af6f45.js",
+    "static/js/runtime-main.164bbadd.js",
     "static/js/2.f632a2e6.chunk.js",
     "static/css/main.a889d10a.chunk.css",
-    "static/js/main.9c1183eb.chunk.js"
+    "static/js/main.8f0d630a.chunk.js"
   ]
 }
